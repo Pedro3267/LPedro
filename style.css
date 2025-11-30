@@ -1,0 +1,79 @@
+:root{
+    --bg:#99bbe7;
+    --accent:#27190e;
+    --muted:#6b7280}
+*{box-sizing:border-box}
+
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    background-image: url(/img/natureza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color:#ffffff
+}
+
+.container{
+    max-width:760px;
+    margin:40px auto;
+    padding:24px}
+
+header h1{margin:0}
+
+p.textob{color: #e4e2e2;}
+
+.lista{
+    background:var(--card);
+    padding:18px;
+    border-radius:12px;
+    box-shadow:0 6px 18px rgba(241, 241, 241, 0.05)}
+
+.itens{
+    display:flex;
+    gap:8px;
+    margin-top:10px}
+
+input[
+    type=text]
+    {flex:1;
+        padding:10px;
+        border:1px solid #ffffff;
+        border-radius:8px}
+
+button{
+    padding:10px 14px;
+    border:none;
+    border-radius:8px;
+    background:var(--accent);
+    color:#fff;
+    cursor:pointer}
+
+button.secundario{
+    background:#ffffff;
+    color:var(--accent);
+    border:1px solid #000000}
+
+.todolist{
+    list-style:none;
+    padding:0;
+    margin-top:18px}
+
+.todoitem{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+    border:1px solid #ffffff;
+    border-radius:8px;
+    margin-bottom:8px}
+
+.title{font-weight:600}
+
+.done .title{
+    text-decoration:line-through;
+    color:var(--muted)}
+
+.textinho{
+    color: aliceblue;
+    font-size:0.9rem;
+    margin-top:18px}
